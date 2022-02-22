@@ -1,0 +1,26 @@
+## String values
+firstName: mahendra
+lastName: shinde
+
+## List values
+## Every list-item need 'HYPHEN and Single Space' as a prefix
+
+language:
+- Marathi
+- Hindi
+- English
+
+languages:
+  - Marathi
+  - Hindi
+  - English
+
+## Object/Map with child property
+# Child property need Indent as prefix
+# An indent can be 2/4/6 or 8 Spaces (Even Numbers)
+# Never use Windows Notepad for YAML files
+# Smart text editors like VSCode, convert all TABs into Spaces
+# YAML need spaces instead of TAB
+employee:
+  firstName: Mahendra
+  lastName: Shinde
