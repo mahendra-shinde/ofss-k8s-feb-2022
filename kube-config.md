@@ -23,11 +23,11 @@ $ kubectl [verb] [options]
 
 Sr.No|Example  | Description
 --|------|---------------
-1. | $ kubectl cluster-info | Shows cluster information, usually for TESTING connectivity with cluster.
-2. | $ kubectl get nodes | List all nodes (includes master and worker)
-3. | $ kubectl describe node node1 | Get details of node 'node1'
-4. | $ kubectl config get-contexts | List all cluster-contexts
-5. | $ kubectl config get-clusters | List all clusters
+1 | $ kubectl cluster-info | Shows cluster information, usually for TESTING connectivity with cluster.
+2 | $ kubectl get nodes | List all nodes (includes master and worker)
+3 | $ kubectl describe node node1 | Get details of node 'node1'
+4 | $ kubectl config get-contexts | List all cluster-contexts
+5 | $ kubectl config get-clusters | List all clusters
 
 Kubernetes Object Types and their abbreviations 
 
