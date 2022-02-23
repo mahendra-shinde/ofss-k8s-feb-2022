@@ -4,7 +4,7 @@
 	 $LOGINSERVER="acr098.azurecr.io"
 	 $USERNAME="acr098"
 	 $PASSWORD="aGo+5s2JsdkfXOmrx4xmtSLKnYQrfnsR"
-	$ kubectl create secret docker-registry reg1 --docker-server=$LOGINSERVER --docker-username=$USERNAME --docker-password=$PASSWORD
+	 kubectl create secret docker-registry reg1 --docker-server=$LOGINSERVER --docker-username=$USERNAME --docker-password=$PASSWORD
 
 2. Create a Pod with Private Image.
 
