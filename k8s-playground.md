@@ -20,3 +20,10 @@
 	```
 	kubectl get nodes
 	```
+
+9.	Clone kubernetes-demos github repository
+	
+	cd ~
+	git clone https://github.com/mahendra-shinde/kubernetes-demos
+	cd kubernetes-demos
+

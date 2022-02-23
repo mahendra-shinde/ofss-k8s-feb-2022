@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: app10
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: app10
+  template:
+    metadata:
+      labels:
+        app: app10
+    spec:
+      imagePullSecrets:
+        - name: reg1
+      containers:
+      - name: myapp
+        image: acr098.azurecr.io/myweb:1
+        resources:
+          limits:
+            memory: "64Mi"
+            cpu: "100m"
+        ports:
+        - containerPort: 80
